@@ -1,0 +1,19 @@
+[package]
+name = "typebool"
+version = "0.1.0"
+authors = ["Nikolai Vazquez <nikvzqz@gmail.com>"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/nvzqz/typebool"
+repository = "https://github.com/nvzqz/typebool"
+documentation = "https://docs.rs/typebool"
+categories = ["no-std", "rust-patterns"]
+keywords = ["type", "bool", "static", "testing"]
+description = "Type-level booleans meant for compile-time hackery."
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "CHANGELOG.md", "LICENSE*"]
+edition = "2018"
+
+[badges]
+is-it-maintained-open-issues = { repository = "nvzqz/typebool" }
+is-it-maintained-issue-resolution = { repository = "nvzqz/typebool" }
+maintenance = { status = "actively-developed" }
