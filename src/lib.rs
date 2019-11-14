@@ -5,6 +5,8 @@
 #![no_std]
 #![deny(missing_docs)]
 
+pub mod comp;
+
 /// A type that expresses a boolean value.
 pub trait Bool {
     /// The runtime boolean value.
