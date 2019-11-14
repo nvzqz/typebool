@@ -24,9 +24,9 @@ extern crate typebool;
 
 This project is released under either:
 
-- [MIT License](https://github.com/nvzqz/static-assertions-rs/blob/master/LICENSE-MIT)
+- [MIT License](https://github.com/nvzqz/typebool/blob/master/LICENSE-MIT)
 
-- [Apache License (Version 2.0)](https://github.com/nvzqz/static-assertions-rs/blob/master/LICENSE-APACHE)
+- [Apache License (Version 2.0)](https://github.com/nvzqz/typebool/blob/master/LICENSE-APACHE)
 
 at your choosing.
 
