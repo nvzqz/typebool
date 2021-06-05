@@ -41,6 +41,12 @@ impl ops::Xor<False> for True {
     type Output = True;
 }
 
+impl From<True> for bool {
+    fn from(_: True) -> Self {
+        true
+    }
+}
+
 /// `false` as a dedicated type.
 pub struct False;
 
@@ -66,4 +72,10 @@ impl ops::Xor<True> for False {
 
 impl ops::Xor<False> for False {
     type Output = False;
+}
+
+impl From<False> for bool {
+    fn from(_: False) -> Self {
+        false
+    }
 }
